@@ -28,10 +28,8 @@ public class fblogin {
 		driver.findElement(Pass).sendKeys("Bluestar2016+");
 		Thread.sleep(10000);
 		//Thread.sleep(10000);
-		driver.findElement(signIn).click();
-		
-		
-		
+		driver.findElement(signIn).click();	
+		//test
 	}
 
 }
